@@ -24,8 +24,6 @@ const wordSearch = (letters, word, toTranspose) => {
     if (l.includes(word) || l.split("").reverse().join("").includes(word)) {
       return true;
     }
-
-    
   }
 
   return false;
